@@ -1,67 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Form a Story</title>
-  </head>
-  <body>
-    <section id="top">
-      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
-    </section>
+<html>
 
-    <section id="main">
-      <h1>Complete the Form -<br> Complete the Story!</h1>
-      <hr>
-      <!--Add your form below:-->
-      <form action="/story.html" method="GET">
-        <label for="animal-1">Animal</label>
-        <input id="animal-1" type="text" name="animal-1">
-        <br>
-        <label for="animal-2">Animal</label>
-        <input id="animal-2" type="text" required>
-        <br>
-        <label for="animal-3">Animal</label>
-        <input id="animal-3" type="text" required>
-        <br>
-        <label for="adj-1">Adjective</label>
-        <input id="adj-1" name="adj-1" type="text" requried>
-        <br>
-        <label for="Verb-1">Verb</label>
-        <input id="Verb-1" name="Verb-1" type="text" requried>
-        <br>
-        <hr>
-        <label for="num-1">Number: 
-        </label>
-        <input id="num-1" name="num-1" type="number" required>
-        <hr>
-        <span>Yes or No:</span>
-        <input type="radio" id="yes" value="yes" name="yes" required>
-        <label for="yes">yes</label>
-        <input type="radio" id="no" value="no" name="no" required>
-        <label for="no">no</label>
-        <br>
-        <label for="speed">Relative speed(ends in -er):</label>
-        <select id="speed" name="speed" requried>
-          <option value="" disable></option>
-          <option value="fast">fast</option>
-          <option value="faster">faster</option>
-          <option value="slow">slow</option>
-          <option value="slower">slower</option>
-        </select>
-        <br>
-        <label for="quote">Motivational Quote:</label>
-        <input id="quote" name="quote" type="text" required list="quote-choices">
-        <datalist id="quote-choices"></datalist>
-        <option value="winner gets ice cream!"></option>
-        <label for="message">Meaningful Message:</label>
-        <textarea id="message" name="message" required row="8" col="40"></textarea>
-        <hr>
-        <br>
-        <input type="submit" value="Form My Story!">
-       
-      </form>
-    </section>
-  </body>
+<head>
+  <title></title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/travel.jpeg" />
+    <h1>Maghfi Gifarry Djayapratama</h1>
+    <p class="about-me">I am a developer specializing in HTML and CSS. I like to run, bike, and make coffee using an Aeropress.</p>
+  </div>
+
+  <h2>Biodata</h2>
+  <p class="title">Alamat</p>
+  <ul>
+    <li>Nerada estate blokB5</li>
+    <li>Taco Finder</li>
+    <li>CSS Selector Finder</li>
+    <li>HTML Formatter</li>
+  </ul>
+
+  <p class="title">Design projects</p>
+  <ul>
+    <li>Yum Yum Fudge Inc.</li>
+    <li>University of Marimont Dance Marathon</li>
+  </ul>
+  <h2>Contact</h2>
+  <p>Find me on Twitter, Dribbble, and GitHub.</p>
+
+  <h6>&copy; Copyright. All Rights Reserved.</h6>
+</body>
+
 </html>
