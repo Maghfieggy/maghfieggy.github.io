@@ -1,8 +1,9 @@
 .header{
-  background-color: #3d8278;
+  background-color: #30ada0;
   text-align:center;
   image-rendering: 
   margin: 25px 50px 75px 100px;
+
 }
 }
 .about-me{
@@ -16,13 +17,15 @@
 h1{
   color:Azure;
  font-family: cursive;
+ background-color: #30ada0;
+ 
 }
 
 }
 body{
   font-family:Georgia;
-  background-image:url('Pas.jpg');
+  background-color: #30ada0;
+  
 
 }
 
- 
